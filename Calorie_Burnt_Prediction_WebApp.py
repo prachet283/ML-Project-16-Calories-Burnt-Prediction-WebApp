@@ -48,7 +48,7 @@ def main():
     calorie = ''
     
     #creating a button for Prediction
-    if st.button('Predict House Price'):
+    if st.button('Predict Calorie Burnt'):
         calorie = calorie_burnt_prediction((gender,age,height,weight,duration,heart_rate,body_temp))
         
     st.success('Calories Burnt: '+ str(calorie)+'cal')
