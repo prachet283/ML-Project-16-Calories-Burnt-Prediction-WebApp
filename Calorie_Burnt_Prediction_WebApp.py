@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 #loading. the saved model
-loaded_model = pickle.load(open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-16-Calories Burnt Prediction using Machine Learning/calories_burnt_prediction_model.sav",'rb'))
+loaded_model = pickle.load(open("calories_burnt_prediction_model.sav",'rb'))
 
 
 #creating a function for prediction
